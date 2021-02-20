@@ -31,7 +31,7 @@ IF you have not yet installed python, go to python.org and install the latest st
 ## Activating Existing Virtual Environments
 1. Let's open a command terminal and run ```$ workon```
 2. Notice below that it lists virtual environments in our holding directory
-(workon_command_before.png)
+![workon command](workon_command_before.png)
 3. What happens if we try to workon a virtual environment that does not yet exist?
 (workon_venv_name_command.png)
 4. To create a new virtual environment using our new python39 install,
