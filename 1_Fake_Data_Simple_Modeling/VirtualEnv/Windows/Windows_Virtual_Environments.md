@@ -33,10 +33,10 @@ IF you have not yet installed python, go to python.org and install the latest st
 2. Notice below that it lists virtual environments in our holding directory
 ![workon command](workon_command_before.png)
 3. What happens if we try to workon a virtual environment that does not yet exist?
-(workon_venv_name_command.png)
+![workon non existing env command](workon_venv_name_command.png)
 4. To create a new virtual environment using our new python39 install,
-(mkvirtualenv_name.png)
+![mkvirtualenv command](mkvirtualenv_name.png)
 5. Let's just run ```$ workon``` to see if it shows up in our list
-(workon_command_after.png)
+![workon command again](workon_command_after.png)
 6. Now to actually workon that environment, we run ```$ workon py39std``` and that python environment will be activated and will show up with our command line cursor.
 7. To stop using an environment, run ```$ deactivate```
