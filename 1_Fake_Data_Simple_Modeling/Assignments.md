@@ -11,9 +11,12 @@
     5. Tutorial https://www.youtube.com/watch?v=VqCgcpAypFQ
     6. Of course, use additional tutorials that you wish or like better
 ## Virtual Environment
-    1. I am writing a guide for you guys on how to install virtualenvwrapper and how to create and grow virtual environments, but you can learn on your own too.
-    2. See Virtual_Environment_Works.md
+    1. I suggest using virtualenvwrapper.
+    2. It's a nice way to manage your virtual environments.
+    3. However, you can manage them the way that your prefer.
+    4. See Virtual_Environment_Works.md
 ## Know How To Add Modules With Pip - Very Easy
-    1. My guide above will also include how to install modules with pip into your virtual environments
+    1. The guide above will explain how to use pip
     2. It is usually as easy as ```pip install module_name```
-    3. Sometimes that modules are not named as you would expect. Simply do a google search for "How to install such_and_such"
+    3. Sometimes the modules are not named as you would expect.
+    4. Simply do a google search for "How to install such_and_such"
