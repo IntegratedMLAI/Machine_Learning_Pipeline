@@ -1,7 +1,11 @@
-go to python.org and install a python version
+# Managing Virtual Environments in Windows
 
-C:\Users\YourUserName\AppData\Local\Programs\Python
-See Python_Versions.png
+## Prerequisites
+IF you have not yet installed python, go to python.org and install the latest stable python version of your OS.
+
+## Multiple Python Versions on Windows
+You will find all your installed python versions in C:\Users\YourUserName\AppData\Local\Programs\Python
+![Python Versions On Thom's Machine](Python_Versions.png)
 
 C:\Users\YourUserName\AppData\Local\Programs\Python\Python3x\Scripts
 pip3.x.exe
