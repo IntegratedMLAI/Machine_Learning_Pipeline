@@ -46,5 +46,9 @@ IF you have not yet installed python, go to python.org and install the latest st
 
 ![workon command again](workon_command_after.png)
 
-6. Now to actually workon that environment, we run ```$ workon py39std``` and that python environment will be activated and will show up with our command line cursor.
-7. To stop using an environment, run ```$ deactivate```
+6. Now to actually workon that environment, we run ```$ workon py39std``` 
+7. That python environment will be activated and will show up with our command prompt.
+8. To stop using an environment, run ```$ deactivate```
+
+## Virtual Environments In Your IDE (VS CODE)
+In VS Code OR your chosen IDE, there will be a package that will allow you to switch between virtual environments AND to likely create virtual environments from within your IDE. Once you pick the package you prefer for this, read the documentation to know how to use them. It's usually pretty clear, and you can web search for help if you need help. Many will have had the same issues as you.
