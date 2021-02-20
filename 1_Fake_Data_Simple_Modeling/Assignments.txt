@@ -1,0 +1,22 @@
+Google Colab
+    Tons of tutorials - find one you like
+    Know how to do the basics
+
+VS code
+    Download https://code.visualstudio.com/docs/?dv=win
+    Play around with options in the Welcome Screen
+    Install additional support for Python using the Welcome Screen
+    Introductory Videos in the Welcome Screen
+    Tutorial https://www.youtube.com/watch?v=VqCgcpAypFQ
+    Or another one you like better
+
+Virtual Environment
+    I am writing a guide for you guys on how to install
+    virtualenvwrapper and how to create and grow virtual
+    environments, but you can learn on your own too.
+
+Know How To Add Modules With Pip
+    My guide above will also include how to install modules
+    with pip into your virtual environments
+        pip install this
+        pip install that
