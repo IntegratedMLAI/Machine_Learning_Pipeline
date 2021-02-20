@@ -26,9 +26,9 @@ IF you have not yet installed python, go to python.org and install the latest st
 1. If you have existing python virtual environments, they are likely here C:\Users\YourUserName\Envs
 2. The image below shows the ones on my windows machine
 
-![Thom's Virtual Environments](See Windows_Python_VENVs.png)
+![Thom's Virtual Environments](Windows_Python_VENVs.png)
 
-## Creating New Or Activating Existing Virtual Environments
+## Activating Existing Virtual Environments
 1. Let's open and command terminal and run ```$ workon command```
 
 (workon_command.png)
