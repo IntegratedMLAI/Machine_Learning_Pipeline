@@ -5,8 +5,7 @@ There are tons of good tutorials for Google Colab.
 Find one or more tutorials that you like and learn how to do the basics.
 
 ## VS Code
-VS Code is made by Microsoft. It's not open source, but it's free, and it's
-very popular and nice to use.
+VS Code is made by Microsoft. It's not open source, but it's free, and it's very popular and nice to use.
 
 1. Download https://code.visualstudio.com/docs/?dv=win
 2. Play around with options in the Welcome Screen
