@@ -14,5 +14,3 @@ with open('./1_Fake_Data_Simple_Modeling/non_linear_data.csv', 'w') as f:
     for i in range(len(X)):
         this_line = f'{X[i]}, {Y[i]}\n'
         f.write(this_line)
-Password@123
-ticket number inc1085527
