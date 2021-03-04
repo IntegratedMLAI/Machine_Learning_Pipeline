@@ -1,0 +1,2 @@
+# Installing And Using Git For Windows
+Git is a file versioning system. It keeps track of your file version history. It's VERY powerful and was created by Linus Torvalds the creator of Linux. Git can seem complicated. However, using it on your own is quite easy.
