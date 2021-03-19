@@ -2,6 +2,9 @@
 
 ## Prerequisites
 IF you have not yet installed python, go to python.org and install the latest stable python version for your OS.
+
+The link to Thom's instructional video for setting up and installing Python virtual environment wrapper for Windows  [![Python Virtual Environments with VirtualEnvWrapper for Windows](Video_Intro.png)](https://youtu.be/JJTWJmoo-Gs "Python Virtual Environments with VirtualEnvWrapper for Windows")
+
 _______________
 ## If You ONLY Have ONE Python Version Installed On Windows
 1. You will find all your installed python versions in C:\Users\YourUserName\AppData\Local\Programs\Python
