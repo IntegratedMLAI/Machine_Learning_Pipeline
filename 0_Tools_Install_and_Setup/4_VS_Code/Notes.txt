@@ -1,0 +1,6 @@
+Video 2: creating Python project, Classifier as example:https://youtu.be/2dLjHUJ3lZE
+Video 3: Creating virtual environment: https://youtu.be/IZOVSFwIpGo
+Video 4: Integration with other projects: https://youtu.be/BM3e0p0Iv7w
+Video 1 it is only about the installation.. 
+i have some technical issues while publishing it .. 
+anyway it is not hard to install this version of visual studio ...
