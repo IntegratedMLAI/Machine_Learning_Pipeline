@@ -2,8 +2,12 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import random
 
-X = [[x/10.0 for x in range(100)], [x/20.0 for x in range(100)]]
-Y = [0 for _ in range(100)]
+num_pts = 100
+div1 = num_pts / 10
+div2 = num_pts / 5
+X = [[x/div1 for x in range(num_pts)],
+     [x/div2 for x in range(num_pts)]]
+Y = [0 for _ in range(num_pts)]
 
 for i in range(len(X[0])):
     # print(X[0][i], X[1][i])
@@ -21,3 +25,8 @@ ax.set_zlabel('Y Values')
 ax.set_title('3D Plot Of Nonlinear Fake Data')
  
 plt.show()
+
+with open('./1_Fake_Data_Creation/dbl_feature_non_linear_data.csv', 'w') as f:
+    for i in range(len(X[0])):
+        this_line = f'{X[0][i]}, {X[1][i]}, {Y[i]}\n'
+        f.write(this_line)
