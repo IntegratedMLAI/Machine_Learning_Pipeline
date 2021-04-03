@@ -3,6 +3,7 @@
 
 Hi Family Students. This repo holds the files to support our class work.
 
+0. Be sure to do weekly pulls on [Jonathan Papworth's Class Repository](https://github.com/jonathan-pap/ML_Pipeline) that gives overviews of each class meeting and provides links to the recorded class meeting videos. Thanks Jonathan!
 1. The code and notes to support work for each phase of the class are in directories with a number at the front of the directory name to indicate the suggested order.
 2. You will learn some basic git. 
 3. If you are on Windows, you will want to install Git for Windows. 
