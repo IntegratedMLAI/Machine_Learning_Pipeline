@@ -11,9 +11,9 @@ Y = [0 for _ in range(num_pts)]
 
 for i in range(len(X[0])):
     # print(X[0][i], X[1][i])
-    Y[i] = 2.0 * X[0][i] + \
-        4.0 * X[1][i] + \
-        (random.random() - 0.5) * 3
+    Y[i] = (2.0 * X[0][i] +
+        4.0 * X[1][i] +
+        (random.random() - 0.5) * 3)
  
 fig = plt.figure()
 ax = plt.axes(projection='3d')

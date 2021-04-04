@@ -9,8 +9,8 @@ def print_metrics(y_test, y_pred, n_params):
     MAE = sklm.mean_absolute_error(y_test, y_pred)
     MedAE = sklm.median_absolute_error(y_test, y_pred)
     r2 = sklm.r2_score(y_test, y_pred)
-    r2_adj = r2 - (n_params - 1)/ \
-        (y_test.shape[0] - n_params) * (1 - r2)
+    r2_adj = (r2 - (n_params - 1) /
+        (y_test.shape[0] - n_params) * (1 - r2))
     
     print('Mean Square Error      = ' + str(MSE))
     print('Root Mean Square Error = ' + str(RMSE))
