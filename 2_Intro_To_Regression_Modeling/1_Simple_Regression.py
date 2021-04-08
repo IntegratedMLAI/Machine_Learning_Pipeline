@@ -64,7 +64,7 @@ plt.ylabel('Y Values')
 plt.show()
 
 """ Load the Linear Regression Model 
-    and Fit with Training Data """
+    and Fit using Training Data """
 mod = LinearRegression(fit_intercept = True)
 mod.fit(x_train, y_train)
 print("The Model Coefficients:")
@@ -73,7 +73,7 @@ print(f'The Slope / Model Weight: {mod.coef_}')
 print()
 
 y_pred = mod.predict(x_test)
-print("The Model Performance Metrics:")
+print("Model Performance Metrics:")
 gt.print_metrics(y_test, y_pred, 1)
 
 plt.scatter(x_test, y_test, color='b')
