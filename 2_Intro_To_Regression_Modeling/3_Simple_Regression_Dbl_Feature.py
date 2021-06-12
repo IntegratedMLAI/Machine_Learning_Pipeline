@@ -11,7 +11,7 @@ from sklearn.linear_model import LinearRegression
 """ Load the Fake Data Into a Pandas DataFrame """
 df_XY = pd.read_csv(
     "./1_Fake_Data_Creation/dbl_feature_linear_data.csv", header=None)
-df_XY.columns = ['X1', 'X2', 'Y']
+df_XY.columns = ['X1', 'X1-3', 'X2', 'X2-2', 'Y']
 print("The Data Frame with X and Y:")
 print(df_XY)
 print()
@@ -23,7 +23,7 @@ print(XY_Values)
 print()
 
 """ Split the X and Y from the XY_Values """
-X = XY_Values[:, 0:2]
+X = XY_Values[:, [0, 2, 3]]
 Y = XY_Values[:, -1]
 print("The X and Y Values Separately")
 print("The X Values")
@@ -72,7 +72,10 @@ plt.show()
 
 """ Load the Linear Regression Model 
     and Fit with Training Data """
-mod = LinearRegression(fit_intercept = True)
+mod = LinearRegression(
+    fit_intercept=False,
+    normalize=False,
+    positive=False)
 mod.fit(x_train, y_train)
 print("The Model Coefficients:")
 print(f'The Y Intercept: {mod.intercept_}')

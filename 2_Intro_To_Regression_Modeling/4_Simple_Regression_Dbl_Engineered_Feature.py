@@ -74,7 +74,8 @@ plt.show()
 
 """ Load the Linear Regression Model 
     and Fit with Training Data """
-mod = LinearRegression(fit_intercept = True)
+mod = LinearRegression(
+    fit_intercept=False,normalize=False)
 mod.fit(x_train, y_train)
 print("The Model Coefficients:")
 print(f'The Y Intercept: {mod.intercept_}')
