@@ -25,7 +25,7 @@ print()
 
 """ Split the X and Y from the XY_Values """
 X = XY_Values[:, 0:2]
-X = np.vstack((X[:,0], X[:,0]**2, X[:,1], X[:,1]**2))
+X = np.vstack((X[:,0], X[:,0]**2, X[:,1], X[:,1]**3))
 X = np.transpose(X)
 Y = XY_Values[:, -1].reshape(-1, 1)
 print("The X and Y Values Separately")

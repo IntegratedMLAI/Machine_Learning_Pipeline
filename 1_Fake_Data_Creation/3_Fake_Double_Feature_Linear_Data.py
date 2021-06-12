@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import random
 
-num_pts = 1000
+num_pts = 100
 div1 = num_pts / 10
 div2 = num_pts / 3
 X = [[x/div1 for x in range(num_pts)], 
